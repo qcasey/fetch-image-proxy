@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  api:
+    image: qcasey1/fetch-image-proxy:main
+    restart: unless-stopped
+    ports:
+      - 3000:3000
