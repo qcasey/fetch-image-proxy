@@ -35,6 +35,8 @@ Image.network("https://image.letterq.org/${Uri.encodeComponent(url)}",
 )),
 ```
 
+Responses are in the ~1-3 second range, depending on a number of factors. You can put an image cache like Cloudflare in front of this API to drastically improve response times after the first fetch.
+
 ## What works well
 
 ### URLs with premade open graph images
